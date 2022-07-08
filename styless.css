@@ -36,10 +36,16 @@ p {
   width: 38%;
 }
 
+.drawer{
+    border-radius: 1em;
+}
+
 #sub-content{
   width: 60%;
   background-color: white;
   padding: 3.3em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
 /*  height: 20%;*/
 }
 
@@ -68,12 +74,11 @@ p {
 
 .icon {
   background-color: hsl(210, 46%, 95%);
-  border-radius: 2em;
   width: 2.5em;
   height: 2.5em;
-
+  border-radius: 1.5em;
 }
 
-#icon{
-  padding: 1em;
+.arrow{
+  margin: 0.6em;
 }
