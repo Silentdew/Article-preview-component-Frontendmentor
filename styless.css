@@ -7,8 +7,15 @@ body {
 }
 
 .main{
-margin-top: 13%;
+margin-top: 20%;
 margin-left: 25%;
+}
+
+@media (max-width: 375px) {
+  .main{
+    margin: 3.5%;
+    padding-top: 10%;
+  }
 }
 
 
@@ -32,16 +39,39 @@ p {
   height: 300px;
 }
 
+@media (max-width: 375px) {
+  .content{
+    display: grid;
+    width: 350px;
+    height: 600px;
+    position: relative;
+  }
+}
+
 .img{
   width: 38%;
+}
+
+@media (max-width: 375px) {
+  .img{
+
+  }
 }
 
 .drawer{
     border-radius: 1em;
 }
 
+@media (max-width: 375px) {
+  .drawer{
+    width: 350px;
+    position: relative;
+  }
+}
+
+
 #sub-content{
-  width: 60%;
+  width: 48%;
   background-color: white;
   padding: 3.3em;
   border-top-right-radius: 1em;
@@ -50,10 +80,31 @@ p {
 }
 
 
+@media (max-width: 375px) {
+  #sub-content{
+    width: 298px;
+    padding-top: 2.5em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    position: absolute;
+    top: 40%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1em;
+  }
+}
+
+
 .footer{
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
+}
+
+@media (max-width: 375px) {
+  .footer{
+    margin-top: 3em;
+  }
 }
 
 .profile-info {
